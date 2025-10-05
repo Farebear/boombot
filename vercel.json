@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "boombot-games",
+  "public": true,
+  "builds": [
+    { "src": "site/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/site/index.html" },
+    { "src": "/presskit", "dest": "/site/presskit/niknaks.html" },
+    { "src": "/(.*)", "dest": "/site/$1" }
+  ]
+}
+

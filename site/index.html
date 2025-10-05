@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boombot Games</title>
+    <meta name="description" content="Boombot Games — indie studio crafting colorful strategy and RPG experiences.">
+    <link rel="preload" as="image" href="../Logo/boombot-logotext.png">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <a class="brand" href="./index.html">
+            <img class="logo-icon" alt="Boombot icon" src="../Logo/boombot-logo.png">
+            <img class="logo-text" alt="Boombot" src="../Logo/boombottext.png">
+            <span>Boombot Games</span>
+          </a>
+          <a href="https://www.youtube.com/@EtheralGames" target="_blank" rel="noopener">YouTube</a>
+          <a href="./presskit/niknaks.html">Presskit — NikNaks</a>
+          <a href="https://store.steampowered.com/app/2632890/WildFront/" target="_blank" rel="noopener">WildFront on Steam</a>
+          <a href="https://store.steampowered.com/app/3038530/NikNaks/" target="_blank" rel="noopener">NikNaks on Steam</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-card">
+          <h1 style="margin-top:0">Games by Boombot</h1>
+          <p>
+            We build vibrant, strategy-forward adventures. From roguelike deckbuilding to
+            creature-collecting RPGs, our focus is on deep systems that reward creativity.
+          </p>
+          <div class="badges" aria-label="tags">
+            <span class="badge">Strategy</span>
+            <span class="badge">RPG</span>
+            <span class="badge">Indie</span>
+          </div>
+          <div class="actions">
+            <a class="btn primary" href="./presskit/niknaks.html">NikNaks Presskit</a>
+            <a class="btn" href="https://store.steampowered.com/app/2632890/WildFront/" target="_blank" rel="noopener">Play WildFront (Free)</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img class="game-thumb" alt="Boombot key art" src="../NN-Presskit/Title art/Niknaks 920 x 430.png">
+        </div>
+      </section>
+
+      <section>
+        <h2 style="margin-bottom:6px">Our Games</h2>
+        <div class="games">
+          <article class="game">
+            <img class="game-thumb" src="../Wildfront/wf site.png" alt="WildFront capsule">
+            <div class="game-body">
+              <h3>WildFront</h3>
+              <p>A 100% FREE unique roguelike deckbuilding experience. Collect cards, relics and monsters, but be careful not to lose your loot.</p>
+              <div class="badges">
+                <span class="badge-subtle">Roguelike Deckbuilder</span>
+                <span class="badge-subtle">Single-player</span>
+                <span class="badge-subtle">Turn-Based</span>
+              </div>
+              <div class="actions">
+                <a class="btn success" href="https://store.steampowered.com/app/2632890/WildFront/" target="_blank" rel="noopener">Play Free on Steam</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="game">
+            <img class="game-thumb" src="../NN-Presskit/Screenshots/Recruit.png" alt="NikNaks screenshot">
+            <div class="game-body">
+              <h3>NikNaks</h3>
+              <p>A groundbreaking roguelike creature collector where your inventory is your team. Create insane combos across async PVP/PVE.</p>
+              <div class="badges">
+                <span class="badge-subtle">Creature Collector</span>
+                <span class="badge-subtle">RPG</span>
+                <span class="badge-subtle">Roguelite</span>
+              </div>
+              <div class="actions">
+                <a class="btn" href="https://store.steampowered.com/app/3038530/NikNaks/" target="_blank" rel="noopener">Steam — $9.99</a>
+                <a class="btn" href="./presskit/niknaks.html">Presskit</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        <div>
+          © <span id="y"></span> Boombot Games — formerly Etheral Games. All trademarks are property of their respective owners. · <a href="https://www.youtube.com/@EtheralGames" target="_blank" rel="noopener">YouTube</a>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      // small util
+      document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+
