@@ -3,12 +3,14 @@
   "name": "boombot-games",
   "public": true,
   "builds": [
-    { "src": "site/**", "use": "@vercel/static" }
+    { "src": "site/**", "use": "@vercel/static" },
+    { "src": "Logo/**", "use": "@vercel/static" },
+    { "src": "NN-Presskit/**", "use": "@vercel/static" },
+    { "src": "Wildfront/**", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/site/index.html" },
-    { "src": "/presskit", "dest": "/site/presskit/niknaks.html" },
-    { "src": "/(.*)", "dest": "/site/$1" }
+    { "src": "/presskit", "dest": "/site/presskit/niknaks.html" }
   ]
 }
 
