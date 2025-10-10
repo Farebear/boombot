@@ -6,7 +6,8 @@
     { "src": "site/**", "use": "@vercel/static" },
     { "src": "Logo/**", "use": "@vercel/static" },
     { "src": "NN-Presskit/**", "use": "@vercel/static" },
-    { "src": "Wildfront/**", "use": "@vercel/static" }
+    { "src": "Wildfront/**", "use": "@vercel/static" },
+    { "src": "*.zip", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/site/index.html" },
